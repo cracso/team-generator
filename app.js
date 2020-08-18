@@ -9,6 +9,27 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
+let employee=[];
+//**will need to review on inquirer */
+//1.first ask what is your occ (intern, engineer, mangeer)=> via inquiere
+
+//2. if i am an engineer then i need to ask the questions below
+//engineer name, id, email, github
+
+//3. create you engineerobject
+//var newGuy  = new Engineer(name, id, email, github);
+
+//4. throw it into an array
+    //employee.push(newGuy)
+
+//5. ask if there are more ppl?
+    //if they say yes, means we have more ppl (go back to step one and repeat until no more employees)
+    //if they say no,
+    // we are done and we need to call the render fx passing in employeeArray
+
+
+
+
 
 
 // Write code to use inquirer to gather information about the development team members,
